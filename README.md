@@ -3,7 +3,9 @@
 A combination of [Tautulli](https://github.com/Tautulli/Tautulli) and [Docker-PlexAniSync](https://github.com/RickDB/Docker-PlexAniSync)
 
 <div>
-  [![Docker Pulls](https://img.shields.io/docker/pulls/rickdb/plexanisync)](https://hub.docker.com/r/rickdb/tautulli-plexanisync)
+  
+  [![Docker Pulls](https://img.shields.io/docker/pulls/rickdb/tautulli-plexanisync)](https://hub.docker.com/r/rickdb/tautulli-plexanisync)
+  
 </div>
 
 ## Usage
