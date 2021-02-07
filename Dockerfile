@@ -15,7 +15,9 @@ RUN apt-get update &&\
     rm master.zip &&\
     mv PlexAniSync-master /plexanisync &&\
     cd /plexanisync &&\
-    python -m pip install -r requirements.txt &&\
-    mv TautulliSyncHelper.py TautulliSyncHelper.pyw
+    python -m pip install -r requirements.txt
 
 LABEL autoheal=true
+
+COPY run/start.sh /app/
+COPY run/settingsupdater.py /plexanisync/
