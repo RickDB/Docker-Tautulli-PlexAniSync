@@ -11,7 +11,7 @@ chown -R tautulli:tautulli /config
 chown -R tautulli:tautulli /plexanisync
 
 echo "Updating settings.ini"
-exec gosu tautulli "python" "/plexanisync/settingsupdater.py"
+gosu tautulli "python" "/plexanisync/settingsupdater.py"
 
 echo "Running Tautulli using user tautulli (uid=$(id -u tautulli)) and group tautulli (gid=$(id -g tautulli))"
 exec gosu tautulli "$@"
