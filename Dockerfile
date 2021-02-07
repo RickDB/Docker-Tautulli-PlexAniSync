@@ -4,8 +4,7 @@ ENV PLEX_SECTION=Anime \
     PLEX_URL=http://127.0.0.1:32400 \
     PLEX_TOKEN='' \
     ANI_USERNAME='' \
-    ANI_TOKEN='' \
-    INTERVAL=3600
+    ANI_TOKEN=''
 
 RUN apt-get update &&\
     apt-get install -y wget unzip &&\
