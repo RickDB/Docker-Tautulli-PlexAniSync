@@ -4,7 +4,7 @@ A combination of [Tautulli](https://github.com/Tautulli/Tautulli) and [Docker-Pl
 
 <div>
   
-  [![Docker Pulls](https://img.shields.io/docker/pulls/rickdb/tautulli-plexanisync)](https://hub.docker.com/r/rickdb/tautulli-plexanisync)
+  ![Docker](https://github.com/rickdb/Docker-Tautulli-PlexAniSync/actions/workflows/docker-publish.yml/badge.svg)
   
 </div>
 
@@ -25,7 +25,7 @@ docker run -d \
   -v <path to tautulli data directory>:/config \
   -v <path to custom_mappings.yaml>:/plexanisync/custom_mappings.yaml \
   --restart unless-stopped \
-  rickdb/tautulli-plexanisync
+  ghcr.io/rickdb/tautulli-plexanisync
 ```
 
 ### Environment Variables
